@@ -1,4 +1,3 @@
-```markdown
 # CoreHub
 
 CoreHub is a robust backend system built with **Django**, specialized in secure **OTP-based authentication** and modular architecture.
@@ -30,13 +29,6 @@ CELERY_RESULT_BACKEND=redis://localhost:6379/1
 
 # SMS Services
 SMS_API_KEY=your_sms_api_key_here
-
-## 2. Installation & Setup
-
-### Clone & Enter
-```bash
-git clone https://github.com/HOsouli/CoreHub.git
-cd CoreHub
 
 ````markdown
 ## 2. Installation & Setup
