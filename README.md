@@ -30,7 +30,7 @@ CELERY_RESULT_BACKEND=redis://localhost:6379/1
 # SMS Services
 SMS_API_KEY=your_sms_api_key_here
 
-````markdown
+
 ## 2. Installation & Setup
 
 ### Clone & Enter
@@ -70,7 +70,6 @@ python manage.py migrate
 python manage.py runserver
 ```
 
----
 
 ## 3. Running Background Workers
 
@@ -84,7 +83,6 @@ celery -A core worker -l info
 celery -A core beat -l info
 ```
 
----
 
 ## 4. Important Notes
 
@@ -98,7 +96,6 @@ celery -A core beat -l info
 pip freeze > requirements.txt
 ```
 
----
 
 ## 5. License
 
